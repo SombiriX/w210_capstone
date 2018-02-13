@@ -1,0 +1,4 @@
+
+*.log
+
+ewg_scraper/crawls/

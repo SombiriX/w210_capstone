@@ -1,9 +1,9 @@
-# w251_lyrics
+# w210 scrapy crawlers
 
 ## Setup
 
 ```
-# as root or sudoer:
+# as root or sudoer, setup python:
 apt-get update
 apt-get install tmux
 apt-get install python
@@ -17,43 +17,34 @@ pip install scrapy ipython
 ## Creating new spiders
 
 ```
-git clone https://github.com/tpanza/w251_lyrics.git
-cd w251_lyrics/
-scrapy startproject mldb_scraper mldb_scraper
-cd mldb_scraper
+git clone this repo
+cd to repo
+scrapy startproject project_name project_name
+cd project_name
 scrapy list
-scrapy genspider mldb mldb.org
+scrapy genspider ewg ewg.org
 scrapy list
 ```
 
 ## Example run instructions
 
-For the azlyrics.com scraper:
+For the ewg.org scraper:
 
 Run with logging status messages to local file (instead of stdout):
 
-`scrapy crawl azlyrics --logfile azlyrics.log`
+`scrapy crawl ewg_skindeep --logfile ewg.log`
 
 Run with saving cache to disk so that crawl can be interrupted and resumed:
 
-`scrapy crawl azlyrics -s JOBDIR=crawls/azlyricsspider-1`
+`scrapy crawl ewg_skindeep -s JOBDIR=crawls/ewg_skindeep-1`
 
 Combine the two options:
 
-`scrapy crawl azlyrics --logfile azlyrics.log -s JOBDIR=crawls/azlyricsspider-1`
+`scrapy crawl ewg_skindeep --logfile ewg.log -s JOBDIR=crawls/ewg_skindeep-1`
 
-Recommend running the scraper(s) with `tmux` in case your SSH connection gets terminated. See <https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session> for details.
+Running scraper(s) with `tmux` in case your SSH connection gets terminated. See <https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session> for details.
 
 For more details, see:
 
  * https://doc.scrapy.org/en/latest/topics/logging.html
  * https://doc.scrapy.org/en/latest/topics/jobs.html
-
-## S3 Bucket Access
-
-```
-pip install s3cmd
-s3cmd --configure
-# see Slack channel for credentials
-s3cmd ls s3://w251lyrics-project
-```
