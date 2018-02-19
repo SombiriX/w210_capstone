@@ -4,3 +4,4 @@
 ewg_scraper/crawls/
 
 *.pyc
+*.json
