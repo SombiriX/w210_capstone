@@ -5,3 +5,5 @@ ewg_scraper/crawls/
 
 *.pyc
 *.json
+
+*.DS_Store
