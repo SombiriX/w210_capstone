@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from ewg_skindeep_uris import category_params1, category_params2, category_params3
+from ingredient_uris import ingredient_uris0, ingredient_uris1, ingredient_uris2
 from scrapy import Selector
 from ewg_scraper.items import EwgScraperIngredient, EwgScraperProduct
 from scrapy.loader import ItemLoader
@@ -14,8 +14,8 @@ class EwgSkindeepSpider(scrapy.Spider):
     allowed_domains = ["ewg.org"]
     num_per_page = 5000
     req_params = "&&showmore=products&atatime=" + str(num_per_page)
-    site_url = 'http://www.ewg.org/skindeep/browse.php?category='
-    start_urls = [site_url + uri + req_params for uri in category_params1]
+    site_url = 'http://www.ewg.org'
+    start_urls = [site_url + uri for uri in ingredient_uris0]
 
     # Constants (these might need updates if the site is redisigned)
     ovrll_hz_ps, cncr_ps, dv_rprd_tx_ps, allrgy_imm_tx_ps, use_rstrct_ps = (0, 1, 2, 3, 4)
@@ -80,29 +80,29 @@ class EwgSkindeepSpider(scrapy.Spider):
             pass
         return ingredient_score
 
-    def parse(self, response):
-        # Parse a product group page
-        # self.logger.info('[parse] Called on %s', response.url)
-        self.crawledCategoryUrls.append(response.url)  # Mark category page as seen
-
-        # Get HTML response
-        responseHTML = response.body
-        sel = Selector(text=responseHTML, type="html")
-
-        # Find all product links in the page and add them to the list for crawling
-        # This prevents the spider from crawling the same link multiple times or looping
-        found_product_links = False
-        for uri in sel.xpath(self.product_link_xpath).extract():
-            if not uri in self.crawledProductUrls:
-                self.crawledProductUrls.append(uri)
-                product_url = urlparse.urljoin(response.url, uri)
-                found_product_links = True
-                #self.logger.info('[parse] Found product link: %s', product_url)
-                product_request = scrapy.Request(product_url, callback=self.parse_product)
-                product_request.meta['product_id'] = urlsafe_b64encode(uri)
-                yield product_request
-        if not found_product_links:
-            pass  # self.logger.warning('[parse] Could not extract product links from: %s', response.url)
+#    def parse(self, response):
+#        # Parse a product group page
+#        # self.logger.info('[parse] Called on %s', response.url)
+#        self.crawledCategoryUrls.append(response.url)  # Mark category page as seen
+#
+#        # Get HTML response
+#        responseHTML = response.body
+#        sel = Selector(text=responseHTML, type="html")
+#
+#        # Find all product links in the page and add them to the list for crawling
+#        # This prevents the spider from crawling the same link multiple times or looping
+#        found_product_links = False
+#        for uri in sel.xpath(self.product_link_xpath).extract():
+#            if not uri in self.crawledProductUrls:
+#                self.crawledProductUrls.append(uri)
+#                product_url = urlparse.urljoin(response.url, uri)
+#                found_product_links = True
+#                #self.logger.info('[parse] Found product link: %s', product_url)
+#                product_request = scrapy.Request(product_url, callback=self.parse_product)
+#                product_request.meta['product_id'] = urlsafe_b64encode(uri)
+#                yield product_request
+#        if not found_product_links:
+#            pass  # self.logger.warning('[parse] Could not extract product links from: %s', response.url)
 
     def parse_product(self, response):
         # Parse a product page
@@ -141,7 +141,7 @@ class EwgSkindeepSpider(scrapy.Spider):
         product_ldr.add_value('ingredient_list', ingredient_list)
         yield product_ldr.load_item()
 
-    def parse_ingredient(self, response):
+    def parse(self, response):
         # Parse ingredient page
         # self.logger.info('[parse_ingredient] Called on %s', response.url)
         ingredient_ldr = ItemLoader(item=EwgScraperIngredient(), response=response)
@@ -153,7 +153,7 @@ class EwgSkindeepSpider(scrapy.Spider):
         ingredient_ldr = self.get_scr_bars(response.xpath(self.score_bars_xpath), ingredient_ldr)
 
         ingredient_ldr.add_value('url', response.url)
-        ingredient_ldr.add_value('ingredient_id', response.meta['ingredient_id'])
+        ingredient_ldr.add_value('ingredient_id', urlsafe_b64encode(response.url.replace(self.site_url, '')))
         ingredient_ldr.add_xpath('ingredient_name', self.name_xpath)
         ingredient_ldr.add_value('ingredient_score', ingredient_score)
         ingredient_ldr.add_xpath('data_availability', self.data_availability_xpath)
