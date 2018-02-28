@@ -7,3 +7,5 @@ ewg_scraper/crawls/
 *.json
 
 *.DS_Store
+
+ewg_scraper/\.ipynb_checkpoints/
