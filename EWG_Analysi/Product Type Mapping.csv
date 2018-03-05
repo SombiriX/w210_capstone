@@ -1,0 +1,198 @@
+Detail,Location,Function,Type
+Nail Polish,Nail,Polish,Nail Polish
+Moisturizer,Face,Cream,Face Cream
+Conditioner,Hair,Condition,Hair Condition
+Shampoo,Hair,Cleanser,Hair Cleanser
+Eye Shadow,Eye,Makeup,Eye Makeup
+Lipstick,Lips,Makeup,Lips Makeup
+Sunscreen: SPF Greater Than 30,Body,Sunscreen,Body Sunscreen
+Foundation,Face,Makeup,Face Makeup
+Facial Moisturizer/treatment,Face,Cream,Face Cream
+Sunscreen: Moisturizer,Face,Sunscreen,Face Sunscreen
+Body Wash/cleanser,Body,Cleanser,Body Cleanser
+Sunscreen: SPF 15-30,Body,Sunscreen,Body Sunscreen
+Styling Gel/lotion,Hair,Style,Hair Style
+Lip Gloss,Lips,Makeup,Lips Makeup
+Eye Liner,Eye,Makeup,Eye Makeup
+Facial Cleanser,Face,Cleanser,Face Cleanser
+Bar Soap,Body,Cleanser,Body Cleanser
+Anti-aging,Face,Cream,Face Cream
+Sunscreen: Makeup,Face,Sunscreen,Face Sunscreen
+Lip Balm,Lips,Medicine,Lips Medicine
+Blush,Face,Makeup,Face Makeup
+Exfoliant/scrub,Face,Cleanser,Face Cleanser
+Mascara,Eye,Makeup,Eye Makeup
+Hair Color And Bleaching,Hair,Color,Hair Color
+Hair Spray,Hair,Style,Hair Style
+Concealer,Face,Makeup,Face Makeup
+Body Oil,Body,Oil,Body Oil
+Antiperspirant/deodorant,Body,Deodorant,Body Deodorant
+ Facial Moisturizer/treatment,Face,Cream,Face Cream
+Fragrance For Women,Body,Fragrance,Body Fragrance
+ Shampoo,Hair,Cleanser,Hair Cleanser
+Mask,Face,Cleanser,Face Cleanser
+Facial Powder,Face,Makeup,Face Makeup
+Liquid Hand Soap,Hand,Cleanser,Hand Cleanser
+Acne Treatment,Face,Acne,Face Acne
+Sunscreen: Lip Balm,Lips,Sunscreen,Lips Sunscreen
+Bath Oil/salts/soak,Body,Bath,Body Bath
+Toners/astringents,Face,Acne,Face Acne
+Bronzer/highlighter,Face,Color,Face Color
+Hand Cream,Hand,Cream,Hand Cream
+Around-eye Cream,Eye,Cream,Eye Cream
+ Sunscreen: Moisturizer,Face,Sunscreen,Face Sunscreen
+Toothpaste,Oral,Cleanser,Oral Cleanser
+ Moisturizer,Body,Cream,Body Cream
+Body Spray,Body,Fragrance,Body Fragrance
+Lip Liner,Lips,Makeup,Lips Makeup
+ Facial Cleanser,Face,Cleanser,Face Cleanser
+Styling Mousse/foam,Hair,Style,Hair Style
+Brow Liner,Brow,Makeup,Brow Makeup
+Baby Sunscreen,Body,Sunscreen,Body Sunscreen
+Baby Lotion,Body,Cream,Body Cream
+Fragrance For Men,Body,Fragrance,Body Fragrance
+BB Cream,Face,Cream,Face Cream
+Shaving Cream,Face,Shaving,Face Shaving
+Makeup Remover,Face,Cleanser,Face Cleanser
+Mouthwash,Oral,Cleanser,Oral Cleanser
+ Sunscreen: SPF Greater Than 30,Body,Sunscreen,Body Sunscreen
+Tooth Whitening,Oral,Color,Oral Color
+Sunless Tanning,Body,Color,Body Color
+Foot Moisturizer,Feet,Cream,Feet Cream
+After Shave,Face,Fragrance,Face Fragrance
+Baby Shampoo,Hair,Cleanser,Hair Cleanser
+Dandruff/scalp Treatment,Hair,Medicine,Hair Medicine
+ Around-eye Cream,Eye,Cream,Eye Cream
+Nail Treatment,Nail,Medicine,Nail Medicine
+Diaper Cream,Body,Cream,Body Cream
+Hand Sanitizer,Hand,Cleanser,Hand Cleanser
+Makeup Primer,Face,Makeup,Face Makeup
+ Eye Shadow,Eye,Makeup,Eye Makeup
+Body Firming Lotion,Body,Cream,Body Cream
+ Foundation,Face,Makeup,Face Makeup
+After Sun Product,Body,Sunscreen,Body Sunscreen
+ Toothpaste,Oral,Cleanser,Oral Cleanser
+CC Cream,Face,Cream,Face Cream
+Baby Wipes,Body,Cleanser,Body Cleanser
+ Lipstick,Lips,Makeup,Lips Makeup
+Bubble Bath,Body,Bath,Body Bath
+ Baby Soap,Body,Cleanser,Body Cleanser
+Baby Soap,Body,Cleanser,Body Cleanser
+Eye Makeup Remover,Eye,Cleanser,Eye Cleanser
+Muscle/joint Soreness,Body,Medicine,Body Medicine
+Baby Oil,Body,Oil,Body Oil
+ Sunscreen: Makeup,Face,Sunscreen,Face Sunscreen
+Detangler,Hair,Cleanser,Hair Cleanser
+ Sunscreen: SPF 15-30,Body,Sunscreen,Body Sunscreen
+Polish Remover,Nail,Cleanser,Nail Cleanser
+Hair-loss Treatment,Hair,Medicine,Hair Medicine
+ Exfoliant/scrub,Face,Cleanser,Face Cleanser
+Skin Fading/lightener,Face,Color,Face Color
+Lip Plumper,Lips,Plumper,Lips Plumper
+ Bubble Bath,Body,Bath,Body Bath
+ Fragrance For Women,Body,Fragrance,Body Fragrance
+ Mask,Face,Cleanser,Face Cleanser
+Baby Bubble Bath,Body,Cleanser,Body Cleanser
+Hair Removal Waxes,Body,Hair Remover,Body Hair Remover
+Depilatory,Body,Hair Remover,Body Hair Remover
+Cuticle Treatment,Nail,Medicine,Nail Medicine
+ Toners/astringents,Face,Acne,Face Acne
+ Dandruff/scalp Treatment,Hair,Medicine,Hair Medicine
+Oil Controller,Face,Acne,Face Acne
+ Makeup Remover,Face,Cleanser,Face Cleanser
+Other Eye Makeup,Eye,Makeup,Eye Makeup
+Hair Styling Aide,Hair,Style,Hair Style
+Baby Powder,Body,Medicine,Body Medicine
+ Body Wash/cleanser,Body,Cleanser,Body Cleanser
+ Antiperspirant/deodorant (men's),Body,Deodorant,Body Deodorant
+Foot Cleansing,Feet,Cleanser,Feet Cleanser
+Hair Treatment/serum,Hair,Medicine,Hair Medicine
+ Body Oil,Body,Oil,Body Oil
+ Eye Liner,Eye,Makeup,Eye Makeup
+ Hand Cream,Hand,Cream,Hand Cream
+ Bronzer/highlighter,Body,Color,Body Color
+ Oil Controller,Face,Acne,Face Acne
+Hair Relaxer,Hair,Style,Hair Style
+Baby Toothpaste,Oral,Cleanser,Oral Cleanser
+ Nail Treatment,Nail,Medicine,Nail Medicine
+ Glitter,Body,Makeup,Body Makeup
+ Concealer,Face,Makeup,Face Makeup
+Eyelash Glue,Eye,Glue,Eye Glue
+Breath Fresheners,Oral,Deodorant,Oral Deodorant
+ Conditioner,Hair,Condition,Hair Condition
+ Fragrance For Men,Body,Fragrance,Body Fragrance
+Glitter,Body,Makeup,Body Makeup
+ Detangler,Hair,Cleanser,Hair Cleanser
+ Lip Gloss,Lips,Makeup,Lips Makeup
+Nail Glue,Nail,Glue,Nail Glue
+Foot Odor Control,Feet,Deodorant,Feet Deodorant
+Redness/rosacea Treatment,Face,Medicine,Face Medicine
+ Facial Powder,Face,Makeup,Face Makeup
+ Muscle/joint Soreness,Body,Medicine,Body Medicine
+ Body Spray,Body,Fragrance,Body Fragrance
+ Liquid Hand Soap,Hand,Cleanser,Hand Cleanser
+ Skin Fading/lightener,Body,Color,Body Color
+ Redness/rosacea Treatment,Face,Medicine,Face Medicine
+ Lip Liner,Lips,Makeup,Lips Makeup
+ Styling Gel/lotion,Hair,Style,Hair Style
+Anti-itch/rash Cream,Body,Medicine,Body Medicine
+Antiperspirant/deodorant (men's),Body,Deodorant,Body Deodorant
+ Lip Balm,Lips,Medicine,Lips Medicine
+Tanning Oil,Body,Oil,Body Oil
+Corn/callus Treatment,Feet,Medicine,Feet Medicine
+ Diaper Cream,Body,Cream,Body Cream
+ Lip Plumper,Lips,Plumper,Lips Plumper
+Beard Oil,Hair,OIl,Hair OIl
+ Hair Treatment/serum,Hair,Medicine,Hair Medicine
+ Bar Soap,Body,Cleanser,Body Cleanser
+ Shaving Cream,Face,Shaving,Face Shaving
+ Shaving Cream (men's),Face,Shaving,Face Shaving
+ Sunless Tanning,Body,Color,Body Color
+ Foot Cleansing,Feet,Cleanser,Feet Cleanser
+ Hair-loss Treatment,Hair,Medicine,Hair Medicine
+ Makeup Primer,Face,Makeup,Face Makeup
+Sunscreen: SPF Less Than 15,Body,Sunscreen,Body Sunscreen
+ Other Eye Makeup,Eye,Makeup,Eye Makeup
+ Foot Moisturizer,Feet,Cream,Feet Cream
+ Body Firming Lotion,Body,Cream,Body Cream
+ Anti-aging,Face,Cream,Face Cream
+ Body Powder,Body,Medicine,Body Medicine
+ Sunscreen: Lip Balm,Lips,Sunscreen,Lips Sunscreen
+ Anti-itch/rash Cream,Body,Medicine,Body Medicine
+ Vapor Rubs,Body,Medicine,Body Medicine
+ Mascara,Eye,Makeup,Eye Makeup
+Cradle Cap Treatment,Hair,Medicine,Hair Medicine
+ Sunscreen: SPF Less Than 15,Body,Sunscreen,Body Sunscreen
+Body Art,Body,Color,Body Color
+Pore Strips,Face,Acne,Face Acne
+ Hair Spray,Hair,Style,Hair Style
+ Hair Styling Aide,Hair,Style,Hair Style
+Body Powder,Body,Medicine,Body Medicine
+ Hair Relaxer,Hair,Style,Hair Style
+ Tanning Oil,Body,Oil,Body Oil
+ Foot Odor Control,Feet,Deodorant,Feet Deodorant
+ Tooth Whitening,Oral,Color,Oral Color
+ Bath Oil/salts/soak,Body,Bath,Body Bath
+ Cradle Cap Treatment,HAir,Medicine,HAir Medicine
+ Hair Color And Bleaching,Hair,Color,Hair Color
+ Baby Oil,Body,Oil,Body Oil
+ CC Cream,Face,Cream,Face Cream
+Damaged Skin Treatment,Face,Medicine,Face Medicine
+ Baby Shampoo,Hair,Cleanser,Hair Cleanser
+ Styling Mousse/foam,Hair,Style,Hair Style
+ BB Cream,Face,Cream,Face Cream
+ Baby Lotion,Body,Cream,Body Cream
+ Nipple Cream (for Moms),Body,Cream,Body Cream
+ Cuticle Treatment,Nail,Medicine,Nail Medicine
+ Mouthwash,Oral,Cleanser,Oral Cleanser
+ After Sun Product,Body,Medicine,Body Medicine
+ Pore Strips,Face,Cleanser,Face Cleanser
+ Blush,Face,Makeup,Face Makeup
+ Nail Polish,Nail,Polish,Nail Polish
+ Baby Toothpaste,Oral,Cleanser,Oral Cleanser
+ Hand Sanitizer,Hand,Cleanser,Hand Cleanser
+ Damaged Skin Treatment,Face,Medicine,Face Medicine
+ Depilatory (men's),Body,Hair Remover,Body Hair Remover
+ Facial Moisturizer,Face,Cream,Face Cream
+ Antiperspirant/deodorant,Body,Deodorant,Body Deodorant
+ Hair Removal Waxes,Body,Hair Remover,Body Hair Remover
