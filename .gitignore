@@ -5,3 +5,7 @@ ewg_scraper/crawls/
 
 *.pyc
 *.json
+
+*.DS_Store
+
+ewg_scraper/\.ipynb_checkpoints/
